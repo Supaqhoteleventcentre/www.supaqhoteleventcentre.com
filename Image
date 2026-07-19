@@ -1,34 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SupaQ Hotel & Event Centre</title>
-</head>
-<body>
+<img src="Image/logo.png" alt="SupaQ Hotel Logo">
 
-    <!-- Logo -->
-    <img src="images/logo.png"
-         alt="SupaQ Hotel Logo"
-         style="width:180px; display:block; margin:auto;">
+<img src="Image/room.jpg" alt="Luxury Room">
 
-    <h2 style="text-align:center;">Welcome to SupaQ Hotel & Event Centre</h2>
-
-    <p style="text-align:center;">
-        Experience comfort, luxury, and excellent hospitality.
-    </p>
-
-    <!-- Bedroom -->
-    <h3>Luxury Rooms</h3>
-    <img src="images/room.jpg"
-         alt="Luxury Room"
-         style="width:100%; max-width:800px; border-radius:10px;">
-
-    <!-- Recreation -->
-    <h3>Recreation</h3>
-    <img src="images/pool-table.jpg"
-         alt="Pool Table"
-         style="width:100%; max-width:800px; border-radius:10px;">
-
-</body>
-</html>
+<img src="Image/pool-table.jpg" alt="Pool Table">
