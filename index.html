@@ -1,262 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- FOOD MENU -->
 
-<title>SupaQ Hotel & Event Centre</title>
-
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Segoe UI',Arial,sans-serif;
-}
-
-body{
-color:#333;
-line-height:1.6;
-}
-
-header{
-position:absolute;
-top:0;
-width:100%;
-padding:25px 8%;
-display:flex;
-justify-content:space-between;
-align-items:center;
-z-index:10;
-}
-
-.logo{
-color:white;
-font-size:28px;
-font-weight:bold;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-}
-
-.hero{
-height:100vh;
-background:
-linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
-url("YOUR_BACKGROUND_IMAGE_URL");
-background-size:cover;
-background-position:center;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-color:white;
-}
-
-.hero h1{
-font-size:55px;
-}
-
-.hero p{
-font-size:22px;
-margin:20px;
-}
-
-.btn{
-background:#c9a227;
-color:white;
-padding:15px 30px;
-border-radius:30px;
-text-decoration:none;
-display:inline-block;
-}
-
-section{
-padding:70px 8%;
-}
-
-.title{
-text-align:center;
-font-size:35px;
-margin-bottom:35px;
-color:#9b7410;
-}
-
-.cards{
-display:flex;
-gap:20px;
-flex-wrap:wrap;
-}
-
-.card{
-flex:1;
-min-width:250px;
-background:white;
-padding:25px;
-box-shadow:0 5px 20px #ddd;
-border-radius:15px;
-}
-
-
-.menu{
-background:#111;
-color:white;
-}
-
-.item{
-padding:15px;
-border-bottom:1px solid #444;
-display:flex;
-justify-content:space-between;
-}
-
-
-.gallery{
-display:flex;
-gap:20px;
-flex-wrap:wrap;
-}
-
-.gallery img{
-width:30%;
-height:250px;
-object-fit:cover;
-border-radius:15px;
-}
-
-
-.contact{
-text-align:center;
-background:#f5f5f5;
-}
-
-
-footer{
-background:black;
-color:white;
-text-align:center;
-padding:20px;
-}
-
-
-@media(max-width:700px){
-
-.hero h1{
-font-size:35px;
-}
-
-nav{
-display:none;
-}
-
-.gallery img{
-width:100%;
-}
-
-}
-</style>
-
-</head>
-
-<body>
-
-
-<header>
-
-<div class="logo">
-SupaQ Hotel & Event Centre
-</div>
-
-<nav>
-<a href="#">Home</a>
-<a href="#rooms">Rooms</a>
-<a href="#menu">Menu</a>
-<a href="#booking">Booking</a>
-</nav>
-
-</header>
-
-
-
-<section class="hero">
-
-<div>
-
-<h1>SupaQ Hotel & Event Centre</h1>
-
-<p>
-Comfort • Class • Unforgettable
-</p>
-
-<a class="btn" href="#booking">
-Book Now
-</a>
-
-</div>
-
-</section>
-
-
-
-<section>
-
-<h2 class="title">About Us</h2>
-
-<p style="text-align:center">
-
-Your Home of Comfort, Luxury & Unforgettable Experiences.
-
-<br>
-
-STAY • DINE • CELEBRATE • MEET
-
-</p>
-
-</section>
-
-
-
-
-<section id="rooms">
+<section id="food">
 
 <h2 class="title">
-Rooms & Prices
+🍽 Food Menu
 </h2>
 
 
-<div class="cards">
+<div class="menu">
 
-<div class="card">
-<h3>Standard Room</h3>
-<p>₦10,000</p>
+<div class="item">
+<span>Indomie & Egg (Boiled/Fried)</span>
+<span>₦3,000</span>
 </div>
 
-<div class="card">
-<h3>Executive Room</h3>
-<p>₦15,000</p>
+<div class="item">
+<span>Indomie, Egg & Veggies</span>
+<span>₦4,500</span>
 </div>
 
-<div class="card">
-<h3>Deluxe Room</h3>
-<p>₦20,000</p>
+<div class="item">
+<span>Indomie, Egg, Veggies with Shredded Beef/Chicken/Sausage/Bacon</span>
+<span>₦6,000</span>
 </div>
-
-</div>
-
-</section>
-
-
-
-
-<section id="menu" class="menu">
-
-<h2 class="title">
-Restaurant & Drinks Menu
-</h2>
-
 
 <div class="item">
 <span>Jollof Rice & Chicken</span>
@@ -274,7 +40,22 @@ Restaurant & Drinks Menu
 </div>
 
 <div class="item">
+<span>Ofada Rice & Sauce</span>
+<span>₦5,000</span>
+</div>
+
+<div class="item">
+<span>Coconut Rice & Chicken</span>
+<span>₦5,000</span>
+</div>
+
+<div class="item">
 <span>Egusi & Pounded Yam</span>
+<span>₦5,000</span>
+</div>
+
+<div class="item">
+<span>Peppered Turkey</span>
 <span>₦5,000</span>
 </div>
 
@@ -284,12 +65,62 @@ Restaurant & Drinks Menu
 </div>
 
 <div class="item">
-<span>Peppered Turkey</span>
-<span>₦5,000</span>
+<span>Peppered Beef</span>
+<span>₦2,000</span>
 </div>
 
 <div class="item">
-<span>Coke / Fanta / Sprite</span>
+<span>Peppered Goat Meat</span>
+<span>₦3,000</span>
+</div>
+
+<div class="item">
+<span>Peppered Kpomo</span>
+<span>₦1,000</span>
+</div>
+
+<div class="item">
+<span>Peppered Gizzard</span>
+<span>₦1,000</span>
+</div>
+
+<div class="item">
+<span>Peppered Titus Fish</span>
+<span>₦3,000</span>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- DRINKS MENU -->
+
+<section id="drinks" class="menu">
+
+<h2 class="title">
+🥤 Drinks Menu
+</h2>
+
+
+<div class="item">
+<span>Coke</span>
+<span>₦1,000</span>
+</div>
+
+<div class="item">
+<span>Fanta</span>
+<span>₦1,000</span>
+</div>
+
+<div class="item">
+<span>Sprite</span>
+<span>₦1,000</span>
+</div>
+
+<div class="item">
+<span>Pepsi</span>
 <span>₦1,000</span>
 </div>
 
@@ -299,8 +130,33 @@ Restaurant & Drinks Menu
 </div>
 
 <div class="item">
+<span>Maltina</span>
+<span>₦1,200</span>
+</div>
+
+<div class="item">
+<span>Star Lager</span>
+<span>₦1,300</span>
+</div>
+
+<div class="item">
 <span>Heineken</span>
 <span>₦1,500</span>
+</div>
+
+<div class="item">
+<span>Guinness</span>
+<span>₦1,800</span>
+</div>
+
+<div class="item">
+<span>Smirnoff Ice</span>
+<span>₦1,500</span>
+</div>
+
+<div class="item">
+<span>Jameson</span>
+<span>₦35,000</span>
 </div>
 
 <div class="item">
@@ -310,89 +166,3 @@ Restaurant & Drinks Menu
 
 
 </section>
-
-
-
-
-<section id="booking">
-
-<h2 class="title">
-Booking
-</h2>
-
-
-<div class="cards">
-
-<div class="card">
-<h3>🛏 Hotel Rooms</h3>
-<p>Book your comfortable stay.</p>
-</div>
-
-<div class="card">
-<h3>🎊 Event Hall</h3>
-<p>Celebrate weddings, parties and meetings.</p>
-</div>
-
-<div class="card">
-<h3>🎱 Snooker Game</h3>
-<p>Reserve your gaming time.</p>
-</div>
-
-<div class="card">
-<h3>🍽 Restaurant & Bar</h3>
-<p>Enjoy delicious meals and drinks.</p>
-</div>
-
-</div>
-
-<br>
-
-<center>
-
-<a class="btn" href="https://wa.me/2348023593046">
-WhatsApp Booking
-</a>
-
-</center>
-
-
-</section>
-
-
-
-
-<section class="contact">
-
-<h2 class="title">
-Contact Information
-</h2>
-
-
-<p>
-📍 6/8 Supaq Street, Off Palace Road,
-Ilogbo-Eremi, via Oko-Afo Bus Stop,
-Badagry Express Road, Lagos State.
-</p>
-
-<p>
-📞 08023593046
-</p>
-
-<p>
-✉ supaqhoteleventcentre@gmail.com
-</p>
-
-
-</section>
-
-
-
-<footer>
-
-© 2026 SupaQ Hotel & Event Centre
-
-</footer>
-
-
-</body>
-</html>
