@@ -1,168 +1,1202 @@
-<!-- FOOD MENU -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-<section id="food">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SupaQ Hotel & Event Centre</title>
+
+<meta name="description" content="Luxury Hotel, Restaurant, Event Centre & Snooker Lounge in Badagry, Lagos.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#fff;
+color:#333;
+line-height:1.7;
+}
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,.6);
+backdrop-filter:blur(8px);
+z-index:1000;
+}
+
+.logo{
+font-size:30px;
+font-weight:700;
+color:#d4af37;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#d4af37;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url("images/background.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+color:#fff;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+.button{
+
+display:inline-block;
+padding:15px 40px;
+background:#d4af37;
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:bold;
+transition:.3s;
+
+}
+
+.button:hover{
+
+background:#b89121;
+
+}
+
+section{
+
+padding:90px 8%;
+
+}
+
+.title{
+
+text-align:center;
+font-size:38px;
+margin-bottom:40px;
+color:#d4af37;
+
+}
+
+.cards{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+
+}
+
+.card{
+
+background:white;
+border-radius:15px;
+padding:30px;
+box-shadow:0 5px 25px rgba(0,0,0,.12);
+
+}
+
+.card img{
+
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:10px;
+margin-bottom:20px;
+
+}
+
+.price{
+
+font-size:24px;
+font-weight:bold;
+color:#d4af37;
+margin-top:15px;
+
+}
+
+.menu{
+
+background:#111;
+color:white;
+
+}
+
+.menu-item{
+
+display:flex;
+justify-content:space-between;
+padding:18px;
+border-bottom:1px solid #444;
+
+}
+
+.gallery{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+
+}
+
+.gallery img{
+
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+
+}
+
+.contact{
+
+background:#f8f8f8;
+
+}
+
+footer{
+
+background:#000;
+color:white;
+text-align:center;
+padding:30px;
+
+}
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:40px;
+
+}
+
+nav{
+
+display:none;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+SupaQ Hotel & Event Centre
+
+</div>
+
+<nav>
+
+<a href="#about">About</a>
+
+<a href="#rooms">Rooms</a>
+
+<a href="#food">Food</a>
+
+<a href="#drinks">Drinks</a>
+
+<a href="#gallery">Gallery</a>
+
+<a href="#booking">Booking</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>SupaQ Hotel & Event Centre</h1>
+
+<p>
+
+Comfort • Class • Unforgettable
+
+</p>
+
+<a href="#booking" class="button">
+
+Book Now
+
+</a>
+
+</div>
+
+</section>
+<!-- ================= ABOUT ================= -->
+
+<section id="about">
+
+<h2 class="title">About SupaQ Hotel & Event Centre</h2>
+
+<p style="text-align:center;max-width:900px;margin:auto;font-size:18px;">
+
+Welcome to <strong>SupaQ Hotel & Event Centre</strong>, your destination for comfort, relaxation and memorable experiences.
+Located at <strong>6/8 Supaq Street, Off Palace Road, Ilogbo-Eremi, via Oko-Afo Bus Stop, Badagry Express Road, Lagos State</strong>, we provide luxury accommodation, delicious meals, premium drinks, event hosting, and entertainment in a peaceful environment.
+
+</p>
+
+<br><br>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>🛏 Luxury Accommodation</h3>
+
+<p>
+
+Enjoy comfortable, clean and fully furnished rooms designed to give you a relaxing stay.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🎉 Event Centre</h3>
+
+<p>
+
+Host weddings, birthdays, seminars, meetings, receptions and corporate events in our beautiful event hall.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🍽 Restaurant & Bar</h3>
+
+<p>
+
+Taste freshly prepared Nigerian and continental dishes with premium drinks served every day.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🎱 Snooker Lounge</h3>
+
+<p>
+
+Relax with friends and enjoy our professional snooker tables in a comfortable atmosphere.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ================= ROOMS ================= -->
+
+<section id="rooms">
 
 <h2 class="title">
-🍽 Food Menu
+
+Rooms & Prices
+
 </h2>
 
+<div class="cards">
 
-<div class="menu">
+<div class="card">
 
-<div class="item">
+<img src="images/standard-room.jpg" alt="Standard Room">
+
+<h3>Standard Room</h3>
+
+<p>
+
+Comfortable room with TV, Air Conditioner, Free Wi-Fi and private bathroom.
+
+</p>
+
+<div class="price">
+
+₦10,000 / Night
+
+</div>
+
+</div>
+
+
+
+<div class="card">
+
+<img src="images/executive-room.jpg" alt="Executive Room">
+
+<h3>Executive Room</h3>
+
+<p>
+
+Spacious executive room with premium comfort and modern facilities.
+
+</p>
+
+<div class="price">
+
+₦15,000 / Night
+
+</div>
+
+</div>
+
+
+
+<div class="card">
+
+<img src="images/deluxe-room.jpg" alt="Deluxe Room">
+
+<h3>Deluxe Room</h3>
+
+<p>
+
+Luxury room with premium furnishing for maximum comfort.
+
+</p>
+
+<div class="price">
+
+₦20,000 / Night
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ================= SERVICES ================= -->
+
+<section id="services">
+
+<h2 class="title">
+
+Our Services
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>🏨 Hotel Accommodation</h3>
+
+<p>
+
+Affordable luxury rooms available every day.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🎊 Event Hall Booking</h3>
+
+<p>
+
+Book our hall for weddings, birthdays, conferences and receptions.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🍛 Restaurant</h3>
+
+<p>
+
+Fresh Nigerian meals prepared by experienced chefs.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🍹 Bar</h3>
+
+<p>
+
+Soft drinks, beers, wines, whisky and premium beverages available.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🎱 Snooker</h3>
+
+<p>
+
+Reserve a snooker table for relaxation and entertainment.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>📶 Free Wi-Fi</h3>
+
+<p>
+
+Stay connected with our high-speed internet service.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= FOOD MENU ================= -->
+
+<section id="food" class="menu">
+
+<h2 class="title">🍽 Restaurant Menu</h2>
+
+<h3 style="padding:20px;color:#d4af37;">🍜 Indomie</h3>
+
+<div class="menu-item">
 <span>Indomie & Egg (Boiled/Fried)</span>
 <span>₦3,000</span>
 </div>
 
-<div class="item">
+<div class="menu-item">
 <span>Indomie, Egg & Veggies</span>
 <span>₦4,500</span>
 </div>
 
-<div class="item">
+<div class="menu-item">
 <span>Indomie, Egg, Veggies with Shredded Beef/Chicken/Sausage/Bacon</span>
 <span>₦6,000</span>
 </div>
 
-<div class="item">
-<span>Jollof Rice & Chicken</span>
-<span>₦4,500</span>
-</div>
 
-<div class="item">
-<span>Fried Rice & Turkey</span>
-<span>₦5,000</span>
-</div>
+<h3 style="padding:20px;color:#d4af37;">🍚 Rice</h3>
 
-<div class="item">
-<span>White Rice & Stew</span>
-<span>₦3,500</span>
-</div>
+<div class="
+  <!-- ================= BOOKING ================= -->
 
-<div class="item">
-<span>Ofada Rice & Sauce</span>
-<span>₦5,000</span>
-</div>
-
-<div class="item">
-<span>Coconut Rice & Chicken</span>
-<span>₦5,000</span>
-</div>
-
-<div class="item">
-<span>Egusi & Pounded Yam</span>
-<span>₦5,000</span>
-</div>
-
-<div class="item">
-<span>Peppered Turkey</span>
-<span>₦5,000</span>
-</div>
-
-<div class="item">
-<span>Peppered Chicken</span>
-<span>₦4,000</span>
-</div>
-
-<div class="item">
-<span>Peppered Beef</span>
-<span>₦2,000</span>
-</div>
-
-<div class="item">
-<span>Peppered Goat Meat</span>
-<span>₦3,000</span>
-</div>
-
-<div class="item">
-<span>Peppered Kpomo</span>
-<span>₦1,000</span>
-</div>
-
-<div class="item">
-<span>Peppered Gizzard</span>
-<span>₦1,000</span>
-</div>
-
-<div class="item">
-<span>Peppered Titus Fish</span>
-<span>₦3,000</span>
-</div>
-
-</div>
-
-</section>
-
-
-
-<!-- DRINKS MENU -->
-
-<section id="drinks" class="menu">
+<section id="booking">
 
 <h2 class="title">
-🥤 Drinks Menu
+Book With Us
 </h2>
 
+<p style="text-align:center;font-size:18px;max-width:900px;margin:auto;">
 
-<div class="item">
-<span>Coke</span>
-<span>₦1,000</span>
+Book your stay or event today. Kindly call us to obtain the official bank account details before making any payment.
+
+</p>
+
+<br>
+
+<div class="cards">
+
+<div class="card">
+
+<h2>🛏 Hotel Rooms</h2>
+
+<p>
+
+Reserve comfortable and affordable rooms for your stay.
+
+</p>
+
+<a class="button" href="tel:08023593046">
+
+Call to Book
+
+</a>
+
 </div>
 
-<div class="item">
-<span>Fanta</span>
-<span>₦1,000</span>
+
+
+<div class="card">
+
+<h2>🎊 Event Hall</h2>
+
+<p>
+
+Perfect for weddings, birthdays, conferences and receptions.
+
+</p>
+
+<a class="button" href="tel:08023593046">
+
+Reserve Hall
+
+</a>
+
 </div>
 
-<div class="item">
-<span>Sprite</span>
-<span>₦1,000</span>
+
+
+<div class="card">
+
+<h2>🎱 Snooker Lounge</h2>
+
+<p>
+
+Book a table and enjoy quality entertainment.
+
+</p>
+
+<a class="button" href="tel:08023593046">
+
+Book Now
+
+</a>
+
 </div>
 
-<div class="item">
-<span>Pepsi</span>
-<span>₦1,000</span>
+
+
+<div class="card">
+
+<h2>🍽 Restaurant & Bar</h2>
+
+<p>
+
+Reserve a table for lunch, dinner or private gatherings.
+
+</p>
+
+<a class="button" href="tel:08023593046">
+
+Reserve Table
+
+</a>
+
 </div>
 
-<div class="item">
-<span>Water</span>
-<span>₦500</span>
 </div>
 
-<div class="item">
-<span>Maltina</span>
-<span>₦1,200</span>
-</div>
+<br><br>
 
-<div class="item">
-<span>Star Lager</span>
-<span>₦1,300</span>
-</div>
+<div style="text-align:center;">
 
-<div class="item">
-<span>Heineken</span>
-<span>₦1,500</span>
-</div>
+<a class="button"
+href="https://wa.me/2348023593046"
+target="_blank">
 
-<div class="item">
-<span>Guinness</span>
-<span>₦1,800</span>
-</div>
+💬 Book via WhatsApp
 
-<div class="item">
-<span>Smirnoff Ice</span>
-<span>₦1,500</span>
-</div>
+</a>
 
-<div class="item">
-<span>Jameson</span>
-<span>₦35,000</span>
 </div>
-
-<div class="item">
-<span>Hennessy VS</span>
-<span>₦55,000</span>
-</div>
-
 
 </section>
+
+
+
+<!-- ================= QR CODE ================= -->
+
+<section>
+
+<h2 class="title">
+
+Scan To Connect
+
+</h2>
+
+<p style="text-align:center;font-size:18px;">
+
+Scan our QR Code to:
+
+</p>
+
+<br>
+
+<div class="cards">
+
+<div class="card">
+
+<ul style="line-height:2;">
+
+<li>Book a Hotel Room</li>
+
+<li>Book the Event Hall</li>
+
+<li>Reserve a Snooker Table</li>
+
+<li>View Food & Drinks Menu</li>
+
+<li>Contact SupaQ Hotel</li>
+
+<li>Visit our Linktree</li>
+
+</ul>
+
+</div>
+
+<div class="card" style="text-align:center;">
+
+<!-- Replace with your QR Code image -->
+
+<img src="images/qrcode.png"
+alt="QR Code"
+style="width:250px;height:250px;">
+
+<p>
+
+Scan Me
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact">
+
+<h2 class="title">
+
+Contact Information
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>📍 Address</h3>
+
+<p>
+
+6/8 Supaq Street,
+
+Off Palace Road,
+
+Ilogbo-Eremi,
+
+via Oko-Afo Bus Stop,
+
+Badagry Express Road,
+
+Lagos State.
+
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>📞 Phone</h3>
+
+<p>
+
+08023593046
+
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>✉ Email</h3>
+
+<p>
+
+supaqhoteleventcentre@gmail.com
+
+</p>
+
+</div>
+
+</div>
+
+<br><br>
+
+<h2 style="text-align:center;color:#d4af37;">
+
+Find Us On Google Maps
+
+</h2>
+
+<br>
+
+<iframe
+src="https://www.google.com/maps?q=Badagry+Express+Road+Lagos&output=embed"
+width="100%"
+height="450"
+style="border:0;border-radius:15px;"
+  
+loading="lazy">
+</iframe>
+
+</section>
+<!-- ================= GALLERY ================= -->
+
+<section id="gallery">
+
+<h2 class="title">
+
+Hotel Gallery
+
+</h2>
+
+<p style="text-align:center;font-size:18px;margin-bottom:40px;">
+
+Take a look at our beautiful hotel, luxury rooms, restaurant and event centre.
+
+</p>
+
+<div class="gallery">
+
+<img src="images/hotel1.jpg" alt="Hotel Building">
+
+<img src="images/hotel2.jpg" alt="Reception">
+
+<img src="images/hotel3.jpg" alt="Luxury Room">
+
+<img src="images/hotel4.jpg" alt="Event Hall">
+
+<img src="images/hotel5.jpg" alt="Restaurant">
+
+<img src="images/hotel6.jpg" alt="Bar & Lounge">
+
+</div>
+
+</section>
+
+
+
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section>
+
+<h2 class="title">
+
+Why Choose SupaQ?
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h2>⭐ Luxury Rooms</h2>
+
+<p>
+
+Comfortable, clean and affordable rooms with excellent customer service.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>🍽 Delicious Meals</h2>
+
+<p>
+
+Freshly prepared local and continental dishes served daily.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>🎉 Premium Event Centre</h2>
+
+<p>
+
+Perfect for weddings, birthdays, seminars and corporate events.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>🎱 Entertainment</h2>
+
+<p>
+
+Enjoy our snooker lounge and relaxing atmosphere.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ================= TESTIMONIALS ================= -->
+
+<section style="background:#111;color:white;">
+
+<h2 class="title">
+
+What Our Guests Say
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+★★★★★
+
+<br><br>
+
+"The rooms were clean, comfortable and affordable. I highly recommend SupaQ Hotel."
+
+<br><br>
+
+<strong>— Guest</strong>
+
+</div>
+
+<div class="card">
+
+★★★★★
+
+<br><br>
+
+"The event hall was beautiful and the staff were very professional."
+
+<br><br>
+
+<strong>— Event Customer</strong>
+
+</div>
+
+<div class="card">
+
+★★★★★
+
+<br><br>
+
+"The food was delicious and the environment was peaceful."
+
+<br><br>
+
+<strong>— Restaurant Guest</strong>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ================= FAQ ================= -->
+
+<section>
+
+<h2 class="title">
+
+Frequently Asked Questions
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>What time is Check-in?</h3>
+
+<p>
+
+Check-in starts from 2:00 PM.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>What time is Check-out?</h3>
+
+<p>
+
+Check-out is before 12:00 PM.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>How do I make a booking?</h3>
+
+<p>
+
+Call us on <strong>08023593046</strong> or book through WhatsApp.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Do you host weddings and conferences?</h3>
+
+<p>
+
+Yes. Our event centre is available for weddings, birthdays, seminars, meetings and other celebrations.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ================= CALL TO ACTION ================= -->
+
+<section style="background:#d4af37;color:white;text-align:center;padding:80px 20
+  <!-- ================= FOOTER ================= -->
+
+<footer>
+
+<div class="footer-container">
+
+<h2 style="color:#d4af37;">
+SupaQ Hotel & Event Centre
+</h2>
+
+<p>
+Comfort • Class • Unforgettable
+</p>
+
+<br>
+
+<p>
+📍 6/8 Supaq Street, Off Palace Road,<br>
+Ilogbo-Eremi, via Oko-Afo Bus Stop,<br>
+Badagry Express Road, Lagos State.
+</p>
+
+<br>
+
+<p>
+📞 08023593046
+</p>
+
+<p>
+✉ supaqhoteleventcentre@gmail.com
+</p>
+
+<br>
+
+<div style="display:flex;justify-content:center;gap:20px;flex-wrap:wrap;">
+
+<a class="button"
+href="tel:08023593046">
+
+Call Now
+
+</a>
+
+<a class="button"
+href="https://wa.me/2348023593046"
+target="_blank">
+
+WhatsApp
+
+</a>
+
+</div>
+
+<br>
+
+<hr style="border:1px solid rgba(255,255,255,.15);margin:30px 0;">
+
+<p>
+
+© 2026 SupaQ Hotel & Event Centre.
+All Rights Reserved.
+
+</p>
+
+<p style="margin-top:10px;opacity:.8;">
+
+Designed with ❤️ for comfort, luxury and unforgettable experiences.
+
+</p>
+
+</div>
+
+</footer>
+
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script>
+
+// Smooth fade animation
+
+const observer = new IntersectionObserver((entries)=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.style.opacity="1";
+
+entry.target.style.transform="translateY(0)";
+
+}
+
+});
+
+});
+
+document.querySelectorAll("section,.card").forEach(el=>{
+
+el.style.opacity="0";
+
+el.style.transform="translateY(40px)";
+
+el.style.transition="all .8s ease";
+
+observer.observe(el);
+
+});
+
+
+
+// Mobile Menu
+
+const nav=document.querySelector("nav");
+
+const menu=document.createElement("button");
+
+menu.innerHTML="☰";
+
+menu.style.background="#d4af37";
+menu.style.color="white";
+menu.style.border="none";
+menu.style.padding="10px 15px";
+menu.style.borderRadius="8px";
+menu.style.fontSize="24px";
+menu.style.cursor="pointer";
+menu.style.display="none";
+
+document.querySelector("header").appendChild(menu);
+
+function checkMenu(){
+
+if(window.innerWidth<768){
+
+menu.style.display="block";
+
+nav.style.display="none";
+
+}else{
+
+menu.style.display="flex";
+
+nav.style.display="flex";
+
+}
+
+}
+
+checkMenu();
+
+window.addEventListener("resize",checkMenu);
+
+menu.onclick=function(){
+
+if(nav.style.display==="none"){
+
+nav.style.display="flex";
+
+nav.style.flexDirection="column";
+nav.style.position="absolute";
+nav.style.top="80px";
+nav.style.right="20px";
+nav.style
