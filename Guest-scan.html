@@ -7,42 +7,93 @@
     <title>SupaQ Hotel - Guest Services</title>
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0;
             font-family: Arial, sans-serif;
             background: #111;
-            color: white;
+            color: #fff;
             text-align: center;
         }
 
         .container {
             max-width: 500px;
-            margin: auto;
-            padding: 40px 20px;
+            margin: 0 auto;
+            padding: 45px 20px;
         }
 
         h1 {
             color: #d4af37;
+            font-size: 30px;
+            margin-bottom: 15px;
         }
 
-        p {
+        .welcome {
             color: #ddd;
+            font-size: 17px;
+            line-height: 1.6;
+            margin-bottom: 30px;
         }
 
         .btn {
             display: block;
-            text-decoration: none;
+            width: 100%;
+            max-width: 360px;
+            margin: 14px auto;
+            padding: 15px 20px;
             background: #d4af37;
             color: #111;
-            padding: 18px;
-            margin: 15px 0;
-            border-radius: 12px;
-            font-size: 18px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 17px;
             font-weight: bold;
+            transition: 0.3s;
         }
 
         .btn:hover {
             opacity: 0.85;
+            transform: scale(1.02);
+        }
+
+        .qr-section {
+            margin-top: 40px;
+            padding-top: 25px;
+            border-top: 1px solid #333;
+        }
+
+        .qr-section h2 {
+            color: #d4af37;
+            font-size: 23px;
+            margin-bottom: 10px;
+        }
+
+        .qr-section p {
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        .qr-code {
+            width: 250px;
+            height: 250px;
+            max-width: 100%;
+            background: #fff;
+            padding: 10px;
+            border-radius: 12px;
+        }
+
+        .scan-note {
+            margin-top: 15px;
+            color: #aaa;
+            font-size: 14px;
+        }
+
+        footer {
+            margin-top: 40px;
+            color: #777;
+            font-size: 13px;
         }
     </style>
 </head>
@@ -53,49 +104,54 @@
 
         <h1>SupaQ Hotel & Event Centre</h1>
 
-        <p>Welcome! What would you like to access?</p>
+        <p class="welcome">
+            Welcome! Please choose a service below.
+        </p>
 
-        <a href="menu.html" class="btn">🍽️ View Menu</a>
+        <a href="menu.html" class="btn">
+            View Menu
+        </a>
 
-        <a href="Rooms.html" class="btn">🛏️ Rooms & Prices</a>
+        <a href="Rooms.html" class="btn">
+            View Rooms
+        </a>
 
-        <a href="contact.html" class="btn">📞 Contact Reception</a>
+        <a href="contact.html" class="btn">
+            Contact Us
+        </a>
 
-        <a href="location.html" class="btn">📍 Hotel Location</a>
+        <a href="location.html" class="btn">
+            Our Location
+        </a>
 
-        <a href="services.html" class="btn">🛎️ Guest Services</a>
+        <a href="services.html" class="btn">
+            Guest Services
+        </a>
+
+        <div class="qr-section">
+
+            <h2>Scan to View Our Rooms</h2>
+
+            <p>
+                Scan this QR code to go directly to the Rooms & Prices section.
+            </p>
+
+            <img
+                class="qr-code"
+                src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://www.supaqhoteleventcentre.com/%23rooms"
+                alt="QR Code to View Rooms">
+
+            <div class="scan-note">
+                Scan with your phone camera
+            </div>
+
+        </div>
+
+        <footer>
+            © 2026 SupaQ Hotel & Event Centre
+        </footer>
 
     </div>
 
-</body<img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://yourwebsite.com/rooms.html">
- >
+</body>
 </html>
-‎<div class="container">
-‎
-‎    <h1>SupaQ Hotel & Event Centre</h1>
-‎
-‎    <p>Welcome! What would you like...</p>
-‎
-‎    <a href="menu.html" class="btn">...</a>
-‎
-‎    <a href="Rooms.html" class="btn">...</a>
-‎
-‎    <a href="contact.html" class="btn">...</a>
-‎
-‎    <a href="location.html" class="btn">...</a>
-‎
-‎    <a href="services.html" class="btn">...</a>
-‎
-‎    <br><br>
-‎
-‎    <p>Scan to view our rooms</p>
-‎
-<p>Scan to view our rooms</p>
-
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://www.supaqhoteleventcentre.com/%23rooms"
-     alt="Scan to View Rooms">
-‎
-‎</div>
-‎
-‎</body>
-‎</html>
