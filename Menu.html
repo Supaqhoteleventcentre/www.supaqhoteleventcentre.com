@@ -1,92 +1,54 @@
-<!-- ================= RESTAURANT ================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SupaQ Hotel - Restaurant Menu</title>
 
-<section id="bar" style="background:#000; color:#fff; padding:60px 20px;">
-  <h2 class="title" style="color:#FFD700; text-align:center;">Restaurant & Bar</h2>
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#000;
+    color:#fff;
+}
 
-  <div class="cards">
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:20px;
+    max-width:1200px;
+    margin:auto;
+}
 
-    <!-- Food Menu -->
-    <div class="card" style="background:#111; color:#fff; border:1px solid #333;">
-      <img src="bar.jpg" alt="Restaurant & Bar">
+.card{
+    border-radius:12px;
+    overflow:hidden;
+}
 
-      <div class="card-content">
-        <h3 style="color:#FFD700;">Restaurant & Bar</h3>
+.card img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+}
 
-        <p>
-          Enjoy delicious Nigerian meals, refreshing drinks, and premium hospitality in our relaxing restaurant and bar.
-        </p>
+.card-content{
+    padding:20px;
+}
 
-        <hr style="border-color:#444;"><br>
+.title{
+    font-size:2rem;
+    margin-bottom:30px;
+}
+</style>
 
-        <h3 style="color:#FFD700;">🍜 Indomie Specials</h3>
-        <p>Indomie & Egg <strong style="float:right;color:#FFD700;">₦3,000</strong></p>
-        <p>Indomie, Egg & Veggies <strong style="float:right;color:#FFD700;">₦4,500</strong></p>
-        <p>Indomie + Egg + Veggies + Beef/Chicken <strong style="float:right;color:#FFD700;">₦6,000</strong></p>
+</head>
 
-        <hr style="border-color:#444;"><br>
+<body>
 
-        <h3 style="color:#FFD700;">🍚 Rice Dishes</h3>
-        <p>Jollof Rice & Chicken <strong style="float:right;color:#FFD700;">₦4,500</strong></p>
-        <p>Fried Rice & Turkey <strong style="float:right;color:#FFD700;">₦5,000</strong></p>
-        <p>White Rice & Stew <strong style="float:right;color:#FFD700;">₦3,500</strong></p>
-        <p>Ofada Rice & Sauce <strong style="float:right;color:#FFD700;">₦5,000</strong></p>
-        <p>Coconut Rice & Chicken <strong style="float:right;color:#FFD700;">₦5,000</strong></p>
-        <p>Egusi & Pounded Yam <strong style="float:right;color:#FFD700;">₦5,000</strong></p>
-      </div>
-    </div>
+<!-- Paste your Restaurant & Bar section here -->
 
-    <!-- Protein Menu -->
-    <div class="card" style="background:#111; color:#fff; border:1px solid #333;">
-      <div class="card-content">
-        <h3 style="color:#FFD700;">🍖 Protein</h3>
+<!-- Paste your Drinks Menu section here -->
 
-        <p>Peppered Turkey <strong style="float:right;color:#FFD700;">₦5,000</strong></p>
-        <p>Peppered Chicken <strong style="float:right;color:#FFD700;">₦4,000</strong></p>
-        <p>Peppered Beef <strong style="float:right;color:#FFD700;">₦2,000</strong></p>
-        <p>Peppered Goat Meat <strong style="float:right;color:#FFD700;">₦3,000</strong></p>
-        <p>Peppered Kpomo <strong style="float:right;color:#FFD700;">₦1,000</strong></p>
-        <p>Peppered Gizzard <strong style="float:right;color:#FFD700;">₦1,000</strong></p>
-        <p>Peppered Titus Fish <strong style="float:right;color:#FFD700;">₦3,000</strong></p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ================= DRINKS ================= -->
-
-<section id="drinks" style="background:#000; color:#fff; padding:60px 20px;">
-  <h2 class="title" style="color:#FFD700; text-align:center;">Drinks Menu</h2>
-
-  <div class="cards">
-
-    <div class="card" style="background:#111; color:#fff; border:1px solid #333;">
-      <div class="card-content">
-
-        <h3 style="color:#FFD700;">🥤 Soft Drinks</h3>
-        <p>Coke <strong style="float:right;color:#FFD700;">₦1,000</strong></p>
-        <p>Fanta <strong style="float:right;color:#FFD700;">₦1,000</strong></p>
-        <p>Sprite <strong style="float:right;color:#FFD700;">₦1,000</strong></p>
-        <p>Pepsi <strong style="float:right;color:#FFD700;">₦1,000</strong></p>
-        <p>Water <strong style="float:right;color:#FFD700;">₦500</strong></p>
-        <p>Maltina <strong style="float:right;color:#FFD700;">₦1,200</strong></p>
-
-        <hr style="border-color:#444;"><br>
-
-        <h3 style="color:#FFD700;">🍺 Beer</h3>
-        <p>Star Lager <strong style="float:right;color:#FFD700;">₦1,300</strong></p>
-        <p>Heineken <strong style="float:right;color:#FFD700;">₦1,500</strong></p>
-        <p>Guinness <strong style="float:right;color:#FFD700;">₦1,800</strong></p>
-        <p>Smirnoff Ice <strong style="float:right;color:#FFD700;">₦1,500</strong></p>
-
-        <hr style="border-color:#444;"><br>
-
-        <h3 style="color:#FFD700;">🥃 Premium Drinks</h3>
-        <p>Jameson <strong style="float:right;color:#FFD700;">₦35,000</strong></p>
-        <p>Hennessy VS <strong style="float:right;color:#FFD700;">₦55,000</strong></p>
-
-      </div>
-    </div>
-
-  </div>
-</section>
+</body>
+</html>
