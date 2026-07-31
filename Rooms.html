@@ -184,16 +184,35 @@ h1{
 
 <section id="room-gallery">
 
-  <div class="cards">
+  <div class="room-gallery">
 
-    <div class="card">
-      <img src="rooms1.jpg" alt="Room 1">
-    </div>
+    <img src="rooms1.jpg" alt="Room 1">
 
-    <div class="card">
-      <img src="1783682054985.jpg" alt="Room 2">
-    </div>
+    <img src="1783682054985.jpg" alt="Room 2">
 
   </div>
 
 </section>
+
+<style>
+#room-gallery{
+  padding:40px 20px;
+  background:#fff;
+}
+
+.room-gallery{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+  gap:20px;
+  max-width:1200px;
+  margin:auto;
+}
+
+.room-gallery img{
+  width:100%;
+  height:300px;
+  object-fit:cover;
+  border-radius:12px;
+  display:block;
+}
+</style>
