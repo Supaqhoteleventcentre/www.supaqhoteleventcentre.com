@@ -180,39 +180,65 @@ h1{
   </div>
 
 </section>
-    <!-- ================= ROOM GALLERY ================= -->
+<!-- ================= GALLERY ================= -->
 
-<section id="room-gallery">
+<section id="gallery">
 
-  <div class="room-gallery">
+  <h2 class="title">Gallery</h2>
 
-    <img src="rooms1.jpg" alt="Room 1">
+  <div class="gallery">
 
-    <img src="1783682054985.jpg" alt="Room 2">
+    <img src="reception.jpg" alt="Reception">
+
+    <img src="rooms1.jpg" alt="Executive Room">
+
+    <img src="1783682054985.jpg" alt="Deluxe Room">
 
   </div>
 
 </section>
 
 <style>
-#room-gallery{
-  padding:40px 20px;
-  background:#fff;
+#gallery{
+    padding:60px 20px;
+    background:#fff;
 }
 
-.room-gallery{
-  display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
-  gap:20px;
-  max-width:1200px;
-  margin:auto;
+#gallery .title{
+    text-align:center;
+    font-size:2rem;
+    margin-bottom:30px;
+    color:#222;
 }
 
-.room-gallery img{
-  width:100%;
-  height:300px;
-  object-fit:cover;
-  border-radius:12px;
-  display:block;
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+    gap:20px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.gallery img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:12px;
+    transition:0.3s ease;
+    cursor:pointer;
+}
+
+.gallery img:hover{
+    transform:scale(1.03);
+}
+
+@media(max-width:768px){
+    .gallery{
+        grid-template-columns:1fr;
+    }
+
+    .gallery img{
+        height:180px;
+    }
 }
 </style>
