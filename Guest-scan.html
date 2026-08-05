@@ -138,4 +138,24 @@ Scan with your phone camera
 </div>
 
 </body>
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>QR Code</title>
+</head>
+<body>
+
+<div id="qrcode"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+new QRCode(document.getElementById("qrcode"), {
+    text: "https://supaqhoteleventcentrecom.vercel.app/Guest-scan.html",
+    width: 250,
+    height: 250
+});
+</script>
+
+</body>
+</html>
 </html>
