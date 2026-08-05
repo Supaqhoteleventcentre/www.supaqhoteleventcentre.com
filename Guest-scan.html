@@ -3,101 +3,94 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>SupaQ Hotel - Guest Services</title>
+<title>SupaQ Hotel & Event Centre | Guest Scan</title>
 
 <style>
 *{
+    margin:0;
+    padding:0;
     box-sizing:border-box;
+    font-family:Arial,sans-serif;
 }
 
 body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    background:#111;
-    color:#fff;
-    text-align:center;
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
 }
 
 .container{
+    width:90%;
     max-width:500px;
-    margin:auto;
-    padding:45px 20px;
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.logo{
+    width:120px;
+    margin-bottom:15px;
 }
 
 h1{
-    color:#d4af37;
-    font-size:30px;
+    color:#0b6b3a;
     margin-bottom:10px;
 }
 
 .welcome{
-    color:#ddd;
-    font-size:17px;
-    line-height:1.6;
-    margin-bottom:30px;
+    margin-bottom:20px;
+    color:#555;
 }
 
 .btn{
     display:block;
     width:100%;
-    max-width:360px;
-    margin:15px auto;
-    padding:18px;
-    background:#d4af37;
-    color:#111;
+    padding:15px;
+    margin:10px 0;
     text-decoration:none;
-    border-radius:10px;
-    font-size:20px;
-    font-weight:bold;
+    color:#fff;
+    background:#0b6b3a;
+    border-radius:8px;
+    font-size:18px;
     transition:.3s;
 }
 
 .btn:hover{
-    background:#c8a631;
-    transform:scale(1.02);
+    background:#09552e;
 }
 
 .qr-section{
-    margin-top:45px;
-    border-top:1px solid #333;
-    padding-top:30px;
+    margin-top:30px;
 }
 
-.qr-section h2{
-    color:#d4af37;
-}
-
-.qr-section p{
-    color:#ccc;
-}
-
-.qr-code{
-    width:220px;
-    height:220px;
-    max-width:100%;
-    background:#fff;
-    padding:10px;
-    border-radius:10px;
+#qrcode{
+    display:flex;
+    justify-content:center;
+    margin:20px 0;
 }
 
 .scan-note{
-    margin-top:15px;
-    color:#999;
+    color:#666;
+    font-size:14px;
 }
 
 footer{
-    margin-top:40px;
+    margin-top:30px;
     color:#777;
-    font-size:13px;
+    font-size:14px;
 }
 </style>
-
 </head>
 
 <body>
 
 <div class="container">
+
+<img src="Image/logo.png" alt="SupaQ Hotel Logo" class="logo">
 
 <h1>SupaQ Hotel & Event Centre</h1>
 
@@ -117,16 +110,14 @@ Welcome! Please choose a service below.
 
 <div class="qr-section">
 
-<h2>Scan to View Our Rooms</h2>
+<h2>Scan to Access Our Guest Portal</h2>
 
-<p>Scan this QR code to go directly to the Rooms & Prices page.</p>
+<p>Scan this QR code to open our Guest Scan page.</p>
 
-<img class="qr-code"
-src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https://supaqhoteleventcentrecom.vercel.app/Rooms.html"
-alt="QR Code">
+<div id="qrcode"></div>
 
 <p class="scan-note">
-Scan with your phone camera
+Scan with your phone camera.
 </p>
 
 </div>
@@ -137,25 +128,15 @@ Scan with your phone camera
 
 </div>
 
-</body>
-    <!DOCTYPE html>
-<html>
-<head>
-    <title>QR Code</title>
-</head>
-<body>
-
-<div id="qrcode"></div>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
 <script>
 new QRCode(document.getElementById("qrcode"), {
     text: "https://supaqhoteleventcentrecom.vercel.app/Guest-scan.html",
-    width: 250,
-    height: 250
+    width: 220,
+    height: 220
 });
 </script>
 
 </body>
-</html>
 </html>
