@@ -1,168 +1,235 @@
-‎‎<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="SUPAQ Hotel & Event Centre">
-<meta name="theme-color" content="#0b1d3a">
 
-<title>SUPAQ Hotel & Event Centre</title>
+<title>SUPAQ Hotel & Event Centre - Guest Service</title>
 
 <style>
 
 *{
-    margin:0;
-    padding:0;
     box-sizing:border-box;
-    font-family:Arial,Helvetica,sans-serif;
 }
 
 body{
-    background:linear-gradient(rgba(6,17,40,.88),rgba(6,17,40,.88)),
-    url("https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=80");
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
+    margin:0;
+    padding:0;
+    font-family:'Poppins', Arial, sans-serif;
+    background:#111;
+    color:white;
+}
+
+.wrapper{
+    min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
-    min-height:100vh;
     padding:20px;
 }
 
 .container{
     width:100%;
-    max-width:550px;
-    background:rgba(18,24,38,.95);
-    border:2px solid #FFD700;
+    max-width:500px;
+    background:white;
+    color:#222;
     border-radius:20px;
-    padding:35px;
+    padding:30px 20px;
     text-align:center;
-    box-shadow:0 15px 40px rgba(0,0,0,.5);
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
 }
+
 
 .logo{
-    width:180px;
-    height:180px;
-    border-radius:50%;
-    object-fit:cover;
-    border:4px solid #FFD700;
-    background:#fff;
-    padding:6px;
-    margin-bottom:20px;
+    width:250px;
+    max-width:90%;
+    height:auto;
+    margin-bottom:15px;
 }
 
+
 h1{
-    color:#FFD700;
-    font-size:32px;
-    margin-bottom:10px;
+    font-size:28px;
+    margin:10px 0;
+    color:#b8860b;
+    font-weight:800;
 }
+
 
 .tagline{
-    color:#fff;
-    font-size:17px;
-    line-height:1.7;
-    margin-bottom:25px;
+    font-size:18px;
+    font-style:italic;
+    margin-bottom:20px;
+    color:#555;
 }
 
-.button{
-    display:block;
-    width:100%;
-    text-decoration:none;
-    background:#FFD700;
-    color:#000;
-    font-size:18px;
-    font-weight:bold;
-    padding:16px;
-    margin:12px 0;
-    border-radius:10px;
-    transition:.3s;
+
+.line{
+    width:80%;
+    height:3px;
+    background:#b8860b;
+    margin:20px auto;
 }
+
+
+.message{
+    font-size:17px;
+    line-height:1.6;
+}
+
+
+.qr{
+    width:280px;
+    max-width:90%;
+    margin:25px auto;
+    display:block;
+}
+
+
+.scan{
+    font-size:20px;
+    font-weight:bold;
+    color:#b8860b;
+}
+
+
+.button{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 30px;
+    background:#b8860b;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    font-size:17px;
+}
+
 
 .button:hover{
-    background:#ffc107;
-    transform:translateY(-2px);
+    background:#8b6508;
 }
 
-footer{
-    margin-top:30px;
-    color:#ddd;
+
+.services{
+    margin-top:25px;
+    text-align:left;
+    background:#f5f5f5;
+    padding:15px;
+    border-radius:15px;
+}
+
+
+.services h2{
+    color:#b8860b;
+    text-align:center;
+}
+
+
+.services p{
+    margin:8px 0;
+}
+
+
+.footer{
+    margin-top:25px;
     font-size:14px;
-    line-height:1.8;
+    color:#777;
 }
 
-@media(max-width:600px){
-
-.logo{
-width:150px;
-height:150px;
-}
-
-h1{
-font-size:26px;
-}
-
-.button{
-font-size:16px;
-padding:15px;
-}
-
-}
 
 </style>
 
 </head>
 
+
 <body>
+
+
+<div class="wrapper">
 
 <div class="container">
 
-<!-- SUPAQ Logo -->
-<img src="https://raw.githubusercontent.com/Supaqhoteleventcentre/www.supaqhoteleventcentre.com/main/supaqlogo.jpg"
-alt="SUPAQ Hotel & Event Centre Logo"
-class="logo">
+
+<img src="supaqlogo.jpg" class="logo" alt="SUPAQ Hotel Logo">
+
 
 <h1>SUPAQ Hotel & Event Centre</h1>
 
-<p class="tagline">
-<strong>Where Every Moment Is Memorable.</strong><br><br>
-Welcome to SUPAQ Hotel & Event Centre.<br>
-Please choose a service below.
-</p>
 
-<a href="Menu.html" class="button">
-🍽 Restaurant Menu
-</a>
+<div class="tagline">
+Where Every Moment Is Memorable
+</div>
 
-<a href="Rooms.html" class="button">
-🛏 Room Categories & Prices
-</a>
 
-<a href="services.html" class="button">
-🛎 Guest Services
-</a>
+<div class="line"></div>
 
-<a href="contact.html" class="button">
-📞 Contact Us
-</a>
 
-<a href="location.html" class="button">
-📍 Hotel Location
-</a>
+<div class="message">
 
-<footer>
+Welcome to SUPAQ Hotel & Event Centre.
 
-<strong>SUPAQ Hotel & Event Centre</strong><br>
+<br><br>
 
-Stay • Dine • Celebrate • Meet<br><br>
-
-© 2026 SUPAQ Hotel & Event Centre.<br>
-
-All Rights Reserved.
-
-</footer>
+Scan our QR Code to access our guest services, hotel information, restaurant menu, event services and more.
 
 </div>
 
+
+
+<a href="https://supaq-hotel-event-centre.vercel.app/Guest-scan.html">
+
+<img src="qrcode.jpg" class="qr" alt="Scan SUPAQ QR Code">
+
+</a>
+
+
+<div class="scan">
+SCAN ME
+</div>
+
+
+
+<a class="button" href="https://supaq-hotel-event-centre.vercel.app/Guest-scan.html">
+
+Open Guest Service
+
+</a>
+
+
+
+<div class="services">
+
+<h2>Our Services</h2>
+
+<p>✓ Comfortable Hotel Accommodation</p>
+
+<p>✓ Restaurant & Bar Services</p>
+
+<p>✓ Event Centre</p>
+
+<p>✓ Wedding & Party Hosting</p>
+
+<p>✓ Guest Support Services</p>
+
+
+</div>
+
+
+
+<div class="footer">
+
+© 2026 SUPAQ Hotel & Event Centre
+
+</div>
+
+
+
+</div>
+
+</div>
+
+
 </body>
+
 </html>
