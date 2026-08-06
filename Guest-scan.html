@@ -16,10 +16,10 @@
 body{
     background:#111827;
     color:#fff;
+    min-height:100vh;
     display:flex;
     justify-content:center;
-    align-items:center;
-    min-height:100vh;
+    align-items:flex-start;
     padding:20px;
 }
 
@@ -30,72 +30,79 @@ body{
     border-radius:20px;
     padding:30px;
     text-align:center;
-    box-shadow:0 10px 30px rgba(0,0,0,.4);
+    box-shadow:0 15px 40px rgba(0,0,0,.4);
 }
 
+/* Logo */
 .logo{
-    width:130px;
-    height:130px;
-    border-radius:50%;
+    width:140px;
+    height:140px;
     object-fit:cover;
+    border-radius:50%;
     background:#fff;
-    padding:8px;
+    padding:6px;
     margin:0 auto 20px;
     display:block;
 }
 
+/* Title */
 h1{
     color:#FFD700;
+    font-size:34px;
     margin-bottom:10px;
-    font-size:30px;
 }
 
 .subtitle{
     color:#ddd;
-    margin-bottom:25px;
-    font-size:17px;
+    font-size:18px;
+    margin-bottom:30px;
 }
 
+/* Buttons */
 .button{
     display:block;
+    text-decoration:none;
     background:#FFD700;
     color:#000;
-    text-decoration:none;
-    padding:15px;
-    margin:12px 0;
-    border-radius:10px;
-    font-size:17px;
+    padding:18px;
+    margin:15px 0;
+    border-radius:12px;
+    font-size:20px;
     font-weight:bold;
-    transition:0.3s;
+    transition:.3s;
 }
 
 .button:hover{
     background:#FFC107;
+    transform:translateY(-2px);
 }
 
+/* QR Section */
 .qr-section{
-    margin-top:35px;
+    margin-top:40px;
+    border-top:1px solid rgba(255,255,255,.15);
+    padding-top:30px;
 }
 
 .qrcode{
-    width:220px;
+    width:230px;
     max-width:100%;
     background:#fff;
     padding:10px;
-    border-radius:10px;
+    border-radius:12px;
     display:block;
-    margin:0 auto;
+    margin:auto;
 }
 
 .scan-text{
-    margin-top:15px;
     color:#FFD700;
+    margin-top:18px;
     font-size:18px;
     font-weight:bold;
 }
 
 footer{
-    margin-top:25px;
+    margin-top:30px;
     color:#bbb;
     font-size:14px;
 }
@@ -107,8 +114,7 @@ footer{
 
 <div class="container">
 
-<!-- Hotel Logo -->
-<img src="supaq logo.jpg" alt="SupaQ Hotel Logo" class="logo">
+<img src="supaqlogo.jpg" alt="SupaQ Hotel Logo" class="logo">
 
 <h1>SupaQ Hotel & Event Centre</h1>
 
@@ -139,17 +145,17 @@ Welcome! Please choose a service below.
 <div class="qr-section">
 
 <a href="https://supaqhoteleventcentrecom.vercel.app/Guest-scan.html" target="_blank">
-<img src="qrcode2.jpg" alt="QR Code" class="qrcode">
+<img src="qrcode2.jpg" alt="Restaurant QR Code" class="qrcode">
 </a>
 
 <p class="scan-text">
-📱 Scan the QR Code to Access Our Digital Menu
+📱 Scan the QR Code to View Our Digital Menu
 </p>
 
 </div>
 
 <footer>
-&copy; 2026 SupaQ Hotel & Event Centre<br>
+© 2026 SupaQ Hotel & Event Centre<br>
 All Rights Reserved.
 </footer>
 
